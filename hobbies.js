@@ -8,4 +8,3 @@ function myHobbies(hobbyOne, hobbyTwo, hobbyThree) {
 
 //Esporto la funzione dal file
 module.exports = myHobbies
-//myHobbies('tennis', 'calcio', 'programmazione');
