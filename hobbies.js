@@ -7,4 +7,4 @@ function myHobbies(hobbyOne, hobbyTwo, hobbyThree) {
 };
 
 //Esporto la funzione dal file
-module.exports = myHobbies(this.hobbies);
+module.exports = myHobbies('tennis', 'calcio', 'programmazione');
