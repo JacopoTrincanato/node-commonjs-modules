@@ -4,7 +4,12 @@ Crea una funzione che non ha parametri. La funzione dovrebbe restituire un ogget
 All'interno della tua funzione, usa le tue due funzioni precedenti per costruire l'oggetto.*/
 
 //Importa la tua funzione da names.js
-const names = require('./names');
+const names = require('./names.js');
+console.log(names);
+
+
 
 //Importa la tua funzione da hobbies.js
-const hobbies = require('./hobbies');
+const hobbies = require('./hobbies.js');
+console.log(hobbies);
+
