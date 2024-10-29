@@ -7,9 +7,25 @@ All'interno della tua funzione, usa le tue due funzioni precedenti per costruire
 const names = require('./names.js');
 console.log(names);
 
+const firstName = names.firstName;
 
+const lastName = names.lastName;
 
 //Importa la tua funzione da hobbies.js
 const hobbies = require('./hobbies.js');
 console.log(hobbies);
+
+const myHobbies = hobbies.hobbies();
+
+function person(){
+    return {
+        firstName,
+        lastName,
+        myHobbies
+    }
+}
+
+const jacopo = person('Jacopo', 'Trincanato', ['calcio', 'tennis', 'programmazione']);
+console.log(jacopo);
+
 
