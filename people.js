@@ -5,7 +5,7 @@ All'interno della tua funzione, usa le tue due funzioni precedenti per costruire
 
 //Importa la tua funzione da names.js
 const names = require('./names.js');
-console.log(names);
+//console.log(names);
 
 const firstName = names.firstName;
 
@@ -13,9 +13,9 @@ const lastName = names.lastName;
 
 //Importa la tua funzione da hobbies.js
 const hobbies = require('./hobbies.js');
-console.log(hobbies);
+//console.log(hobbies);
 
-const myHobbies = hobbies.myHobbies();
+const myHobbies = hobbies.hobbies;
 
 function person(){
     return {
