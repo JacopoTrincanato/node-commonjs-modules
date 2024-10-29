@@ -10,4 +10,4 @@ function fullName(firstName, lastName) {
 };
 
 //Esporto la funzione dal file
-module.exports = fullName();
+module.exports = fullName('Jacopo', 'Trincanato');

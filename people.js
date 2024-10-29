@@ -15,7 +15,7 @@ const lastName = names.lastName;
 const hobbies = require('./hobbies.js');
 console.log(hobbies);
 
-const myHobbies = hobbies.hobbies();
+const myHobbies = hobbies.myHobbies();
 
 function person(){
     return {
@@ -25,7 +25,7 @@ function person(){
     }
 }
 
-const jacopo = person('Jacopo', 'Trincanato', ['calcio', 'tennis', 'programmazione']);
+const jacopo = person();
 console.log(jacopo);
 
 
