@@ -1,5 +1,5 @@
 /*1 - names.js
-Creo la funzione fullName che accetta due parametri: firstName, lastName. La funzione dovrebbe restituire un oggetto con le proprietà firstName e lastName.
+Creo la funzione fullName che accetta due parametri: firstName, lastName che restituirà un oggetto con le proprietà firstName e lastName.
 */
 
 function fullName(firstName, lastName) {
